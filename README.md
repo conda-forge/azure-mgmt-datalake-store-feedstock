@@ -5,11 +5,13 @@ Home: https://github.com/Azure/azure-sdk-for-python
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-mgmt-datalake-store-feedstock/blob/master/LICENSE.txt)
 
 Summary: Microsoft Azure Data Lake Store Management Client Library for Python
 
+Development: https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/datalake/azure-mgmt-datalake-store
 
+Documentation: https://docs.microsoft.com/en-us/python/api/azure-mgmt-datalake-store/azure.mgmt.datalake.store?view=azure-python
 
 Current build status
 ====================
@@ -116,5 +118,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@dhirschfeld](https://github.com/dhirschfeld/)
 * [@ericdill](https://github.com/ericdill/)
 
