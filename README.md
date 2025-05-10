@@ -36,14 +36,14 @@ Current release info
 Installing azure-mgmt-datalake-store
 ====================================
 
-Installing `azure-mgmt-datalake-store` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `azure-mgmt-datalake-store` from the `conda-forge/label/azure-mgmt-datalake-store_rc` channel can be achieved by adding `conda-forge/label/azure-mgmt-datalake-store_rc` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/azure-mgmt-datalake-store_rc
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `azure-mgmt-datalake-store` can be installed with `conda`:
+Once the `conda-forge/label/azure-mgmt-datalake-store_rc` channel has been enabled, `azure-mgmt-datalake-store` can be installed with `conda`:
 
 ```
 conda install azure-mgmt-datalake-store
@@ -58,26 +58,26 @@ mamba install azure-mgmt-datalake-store
 It is possible to list all of the versions of `azure-mgmt-datalake-store` available on your platform with `conda`:
 
 ```
-conda search azure-mgmt-datalake-store --channel conda-forge
+conda search azure-mgmt-datalake-store --channel conda-forge/label/azure-mgmt-datalake-store_rc
 ```
 
 or with `mamba`:
 
 ```
-mamba search azure-mgmt-datalake-store --channel conda-forge
+mamba search azure-mgmt-datalake-store --channel conda-forge/label/azure-mgmt-datalake-store_rc
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search azure-mgmt-datalake-store --channel conda-forge
+mamba repoquery search azure-mgmt-datalake-store --channel conda-forge/label/azure-mgmt-datalake-store_rc
 
 # List packages depending on `azure-mgmt-datalake-store`:
-mamba repoquery whoneeds azure-mgmt-datalake-store --channel conda-forge
+mamba repoquery whoneeds azure-mgmt-datalake-store --channel conda-forge/label/azure-mgmt-datalake-store_rc
 
 # List dependencies of `azure-mgmt-datalake-store`:
-mamba repoquery depends azure-mgmt-datalake-store --channel conda-forge
+mamba repoquery depends azure-mgmt-datalake-store --channel conda-forge/label/azure-mgmt-datalake-store_rc
 ```
 
 
@@ -148,4 +148,5 @@ Feedstock Maintainers
 =====================
 
 * [@dhirschfeld](https://github.com/dhirschfeld/)
+* [@janjagusch](https://github.com/janjagusch/)
 
