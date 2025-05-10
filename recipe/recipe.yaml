@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: azure-mgmt-datalake-store
-  version: 1.0.0
+  version: 1.1.0b1
 
 package:
   name: ${{ name|lower }}
@@ -13,7 +13,7 @@ source:
   sha256: 1ab9952bdeccfa2a237af3cb553b8b99f4112f1beb1edafd0d11f2989bcb6071
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . --no-deps -vv
 
